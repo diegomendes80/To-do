@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/style.css">
+  <script src="dark-mode.js" defer></script>
+  <script src="script.js" defer></script>
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="body-dark">
+
+  <img src="images/bg-desktop-light.jpg" class="background-image">
+
+  <header class="cabecalho">
+    <h1 class="cabecalho__titulo">T O D O</h1>
+    <img src="images/icon-moon.svg" alt="mude o tema para escuro" class="cabecalho__theme-button">
+  </header>
+
+
+  <main class="app">
+    <section class="app__adc-nova-tarefa item-container">
+      <input type="radio" id="adc-nova-tarefa__radio">
+      <input type="text" id="adc-nova-tarefa__input" placeholder="Create a new todo...">
+    </section>
+
+    <section class="app__menu">
+      <ul class="menu__lista-de-tarefas">
+
+        <!-- <li class="lista-de-tarefas__tarefa">
+          <input type="radio" class="tarefa__input-radio">
+          <p class="tarefa__descricao">Complete online javascript course</p>
+          <img src="images/icon-cross.svg" alt="clique para remover essa tarefa" class="tarefa__botao-remover-tarefa">
+        </li>
+
+        <li class="lista-de-tarefas__tarefa">
+          <input type="radio" class="tarefa__input-radio">
+          <p class="tarefa__descricao">Complete online javascript course</p>
+          <img src="images/icon-cross.svg" alt="clique para remover essa tarefa" class="tarefa__botao-remover-tarefa">
+        </li> 
+        
+        <li class="lista-de-tarefas__tarefa">
+          <input type="radio" class="tarefa__input-radio">
+          <p class="tarefa__descricao">Complete online javascript course</p>
+          <img src="images/icon-cross.svg" alt="clique para remover essa tarefa" class="tarefa__botao-remover-tarefa">
+        </li>
+         -->
+
+      </ul>
+
+      <div class="menu__controls">
+        
+        <p class="controls__items-left">
+          <span class="items-left__qtd">0</span> items left
+        </p>  
+
+        <div class="controls__botoes">
+          <button class="botoes__botao-mostra-todas">All</button>
+          <button class="botoes__botao-mostra-ativas">Active</button>
+          <button class="botoes__botao-mostra-completas">Completed</button>
+        </div>
+      
+        <button class="controls__botao-limpar-completas">Clear Completed</button>
+    
+
+      </div>
+    </section>
+
+    <section class="controls-mobile">
+      <button class="botoes__botao-mostra-todas">All</button>
+      <button class="botoes__botao-mostra-ativas">Active</button>
+      <button class="botoes__botao-mostra-completas">Completed</button>
+    </section>
+
+  </main>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

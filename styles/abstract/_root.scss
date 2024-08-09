@@ -1,0 +1,24 @@
+@use 'var';
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100dvh;
+    font-family: var.$font;
+    font-size: 18px;
+   
+}
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+
+ul{
+    padding-left: 0;
+}
+
+
